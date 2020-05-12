@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Card, extraLogic } from './components';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         >
           Learn React
         </a>
+        <Card>This is a card.</Card>
+        <button onClick={extraLogic}>Extra logic</button>
       </header>
     </div>
   );
